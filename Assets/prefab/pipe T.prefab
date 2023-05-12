@@ -107,6 +107,19 @@ MonoBehaviour:
   canRotate: 1
   energized: 0
   genese: 0
+  receptor: 0
+  painted: 0
+  currentCollor: 4
+  targetColor: 4
+  colors:
+  - color: 0
+    sprite: {fileID: 21300000, guid: a7a2dd0249517ae4fb1ff9eb183a42a2, type: 3}
+  - color: 1
+    sprite: {fileID: 21300000, guid: 952dfdaf9503a564a86a3d62c5c69f97, type: 3}
+  - color: 3
+    sprite: {fileID: 21300000, guid: ffc76d760344806419c367297828b77b, type: 3}
+  - color: 2
+    sprite: {fileID: 21300000, guid: c35f9026f016fb348add35fc10ede165, type: 3}
 --- !u!61 &6124465821471971491
 BoxCollider2D:
   m_ObjectHideFlags: 0

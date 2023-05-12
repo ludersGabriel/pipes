@@ -100,12 +100,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d136e837544278048a17f3fa6f0f465a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  activeSprite: {fileID: 21300000, guid: fdfbdaa3b40725e47a2cb6c54c135c21, type: 3}
   inactiveSprite: {fileID: 21300000, guid: 705d44df46cb6a04d9fa24d7387ce452, type: 3}
   canRotate: 1
   energized: 1
   genese: 1
+  receptor: 0
   painted: 0
+  currentCollor: 0
+  targetColor: 4
+  colors:
+  - color: 0
+    sprite: {fileID: 21300000, guid: fdfbdaa3b40725e47a2cb6c54c135c21, type: 3}
 --- !u!61 &8903793501728210411
 BoxCollider2D:
   m_ObjectHideFlags: 0
